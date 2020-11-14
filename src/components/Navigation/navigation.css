@@ -1,0 +1,14 @@
+nav {
+    background-color: #17B890;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 60px;
+    }
+
+#Sign {
+    margin: 10px 40px 10px 0px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}

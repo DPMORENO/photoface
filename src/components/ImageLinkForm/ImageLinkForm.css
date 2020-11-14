@@ -1,0 +1,38 @@
+input {
+    width: 85%;
+}
+
+.f3 {
+    font-weight: bold;
+}
+
+.button {
+background-color: #FF9900;
+padding: 5px 5px;
+border-radius: 10px;
+border-color: none;
+display: block;
+color: white;
+font-weight: bold;
+font-size: calc(1em +1vw);
+line-height: 2em;
+}
+
+button:hover {
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#box {
+display: flex;
+justify-content: center;
+padding: 15px;
+box-shadow: 10px 10px 57px 0px rgba(0,0,0,0.75);
+margin: 20px 150px;
+background:
+linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+background-color:#708090;
+background-size: 64px 128px;
+}
