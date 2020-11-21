@@ -95,7 +95,7 @@ console.log(Bbox)
     app.models.predict({id:'d02b4508df58432fbb84e800597b8959'}, this.state.input)
     .then(response => {
       if(response) {
-        fetch('http://localhost:3000/image', {
+        fetch('https://murmuring-lake-33449.herokuapp.com/image', {
           method: 'put',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({
@@ -112,6 +112,9 @@ console.log(Bbox)
 }
 
   onRouteChange = (state) => {
+    if (state === 'signin') {
+      this.setState({imageUrl:''})
+    }
     this.setState({route: state});
   }
 
